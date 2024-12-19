@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: red;
+    
+   
+}
+
+.navbar img {
+    width: 70px;
+    padding: 10px;
+    padding-left: 55px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 35rem;
+}
+
+.navbar ul li {
+    list-style: none;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+}
